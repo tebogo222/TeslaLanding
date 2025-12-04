@@ -1,104 +1,111 @@
+<p align="center">
+	<img src="images/teslaLogo.png" alt="Project preview" width="220" />
+</p>
+
+<p align="center">
+	<a href="https://github.com/tebogo222/TeslaLanding"><img src="https://img.shields.io/badge/Repo-TeslaLanding-blue.svg" alt="repo"></a>
+	<img src="https://img.shields.io/badge/License-MIT-green.svg" alt="license">
+	<img src="https://img.shields.io/badge/Status-Prototype-orange.svg" alt="status">
+</p>
+
 # Tesla Landing
 
-A sleek, responsive landing page inspired by Tesla — built with plain HTML, CSS, and JavaScript.
+A sleek, responsive landing page inspired by Tesla — built with plain HTML, CSS, and JavaScript. Clean, accessible, and easy to customize for your product.
 
-![Preview](images/teslaLogo.png)
-
-**Demo:** Open `index.html` in your browser (see instructions below).
-
-**Table of contents**
-- [Description](#description)
+## Table of contents
+- [Quick demo](#quick-demo)
 - [Features](#features)
-- [Technologies](#technologies)
-- [Getting Started](#getting-started)
-- [Project Structure](#project-structure)
+- [Tech stack](#tech-stack)
+- [Quick start](#quick-start)
+- [Project structure](#project-structure)
 - [Customization](#customization)
 - [Deployment](#deployment)
 - [Contributing](#contributing)
-- [License](#license)
+- [License & credits](#license--credits)
 
-## Description
+## Quick demo
 
-`Tesla Landing` is a lightweight, responsive single-page landing site that showcases a modern product-style layout. It focuses on clarity, high-quality visuals, and simple animations to create a professional first impression.
-
-## Features
-
-- **Responsive design:** Works on mobile, tablet, and desktop.
-- **Minimal dependencies:** Plain HTML/CSS/JS — no build step required.
-- **Accessible layout:** Semantic markup and readable contrast.
-- **Easy customization:** Replace images and edit copy to make it yours.
-
-## Technologies
-
-- **HTML5** — Markup and structure (`index.html`).
-- **CSS3** — Visual styling (`index.css`).
-- **JavaScript** — Progressive interactivity (`script.js`).
-
-## Getting Started
-
-No build tools are required. Open the site locally or serve it with a simple static server.
-
-**Open directly (Windows PowerShell):**
+Open `index.html` in your browser to preview locally, or serve the folder to test features that require a server.
 
 ```powershell
 Start-Process .\index.html
 ```
 
-**Or serve on localhost (recommended for full-feature testing):**
+Preview (centered for clarity):
+
+<p align="center">
+	<img src="images/teslaLogo.png" alt="Preview screenshot" width="600" />
+</p>
+
+## Features
+
+- ✅ Responsive layout (mobile → desktop)
+- ✅ Minimal dependencies — no build step
+- ✅ Semantic, accessible markup
+- ✅ Simple animations and lightweight JS
+
+## Tech stack
+
+- HTML5 — `index.html`
+- CSS3 — `index.css` (variables for quick theming)
+- JavaScript — `script.js` (small, unobtrusive behavior)
+
+## Quick start
+
+No build tools required.
 
 ```powershell
-# With Python 3 installed
+# Open directly (Windows PowerShell)
+Start-Process .\index.html
+
+# Serve with Python (recommended for full testing)
 python -m http.server 8000; Start-Process http://localhost:8000
 
-# Or use a quick Node static server (if you have Node.js)
+# Or use a node static server if you prefer
 npx serve .
 ```
 
-Then open `http://localhost:8000` (or the address shown by your server).
+Then open `http://localhost:8000` (or the URL printed by your server).
 
-## Project Structure
+## Project structure
 
-- `index.html` — Main landing page markup.
-- `index.css` — Styles and responsive layout.
-- `script.js` — Interactive behaviors and tiny animations.
-- `images/` — Assets used by the page (logo, hero, screenshots).
-- `README.md` — This file.
+- `index.html` — main markup and content
+- `index.css` — styles, layout, and variables
+- `script.js` — interactivity and small UI tweaks
+- `images/` — visual assets (logo, hero, screenshots)
+- `README.md` — this file
 
 ## Customization
 
-- **Swap images:** Replace files in `images/` (keep same filenames or update `index.html`).
-- **Branding & colors:** Edit variables at the top of `index.css` to match your brand palette.
-- **Copy:** Open `index.html` and update headings, paragraphs, and CTA text.
+- Replace images in `images/` to change the hero or logo.
+- Edit color variables at the top of `index.css` to adapt the palette.
+- Update copy directly in `index.html` to reflect your product messaging.
 
 Tips:
-- Keep hero images high-quality but optimized for web (WebP or compressed JPEG/PNG).
-- Test breakpoints by resizing your browser or using devtools device toolbar.
+- Optimize hero images (WebP or compressed JPG) for faster load times.
+- Keep CTA copy short and action-oriented.
 
 ## Deployment
 
-Quick ways to publish:
+Recommended quick options:
 
-- **GitHub Pages:** Push the repository to GitHub and enable Pages from the `main` branch or `gh-pages` branch in repository settings.
-- **Netlify / Vercel:** Drag-and-drop the project folder or connect the repository for automatic deploys.
+- **GitHub Pages** — push the repo and enable Pages from `main`.
+- **Netlify / Vercel** — drag-and-drop the folder or connect your repo for CI deploys.
 
 ## Contributing
 
-Contributions are welcome. For small changes (content, images, minor styles), open a pull request. For larger changes, open an issue first to discuss.
+Small fixes and documentation improvements are welcome — open a PR. For major changes, open an issue first to discuss scope.
 
-## License
+## License & credits
 
-This project is provided under the MIT License — feel free to reuse and adapt.
-
-## Credits & Acknowledgements
-
-- Design inspiration: Tesla marketing pages and modern product landing patterns.
-- Built by the repository owner — feel free to reach out if you'd like help customizing it further.
+- License: MIT
+- Designed with inspiration from Tesla product pages; implemented by the repository owner.
 
 ---
 
 If you'd like, I can also:
 - Add a `LICENSE` file with the MIT text.
-- Create a small `README` screenshot by exporting a preview image to `images/screenshot.png`.
-- Add a simple `package.json` and `serve` script for convenience.
+- Generate and add a `images/screenshot.png` preview image.
+- Add a `package.json` with a `start` script that runs a local static server.
 
-Tell me which of those you'd like next.
+Tell me which you'd like next and I'll add it.
