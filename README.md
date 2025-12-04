@@ -2,7 +2,7 @@
 
 A sleek, responsive landing page inspired by Tesla — built with plain HTML, CSS, and JavaScript.
 
-![Preview](images/screenshot.png)
+![Preview](images/teslaLogo.png)
 
 **Demo:** Open `index.html` in your browser (see instructions below).
 
