@@ -98,13 +98,8 @@ Small fixes and documentation improvements are welcome — open a PR. For major 
 ## License & credits
 
 - License: MIT
-- Designed with inspiration from Tesla product pages; implemented by the repository owner.
+- Designed with inspiration from Tesla product pages; implemented by Tebogo Musi.
 
 ---
 
-If you'd like, I can also:
-- Add a `LICENSE` file with the MIT text.
-- Generate and add a `images/screenshot.png` preview image.
-- Add a `package.json` with a `start` script that runs a local static server.
 
-Tell me which you'd like next and I'll add it.
