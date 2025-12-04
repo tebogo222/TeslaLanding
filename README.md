@@ -31,7 +31,6 @@ Open `index.html` in your browser to preview locally, or serve the folder to tes
 Start-Process .\index.html
 ```
 
-Preview (centered for clarity):
 
 <p align="center">
 	<img src="images/teslaLogo.png" alt="Preview screenshot" width="600" />
